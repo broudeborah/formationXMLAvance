@@ -26,4 +26,9 @@ public class demarrage {
 		System.out.println("nom de l'entreprise: " + monEnt);
 		System.out.println("nom du contact: " + monContact);
 	}
+	
+	private static void methodepour3ecommit()
+	{
+		System.out.println("coucou");
+	}
 }
