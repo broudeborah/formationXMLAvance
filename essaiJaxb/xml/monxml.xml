@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="NewXMLSchema.xsd">
+  <Customers>
+    <Customer CustomerID="aaa123">
+      <CompanyName>MMA</CompanyName>
+      <ContactName>Toto</ContactName>
+      <ContactTitle>Directeur</ContactTitle>
+      <Phone>0243524587</Phone>
+      <FullAddress CustomerID="aaa123">
+        <Address>rue H. Champion</Address>
+        <City>Le Mans</City>
+        <Region>Sarthe</Region>
+        <PostalCode>72000</PostalCode>
+        <Country>France</Country>
+      </FullAddress>
+    </Customer>
+  </Customers>
+  <Orders>
+    <Order>
+      <CustomerID>aaa123</CustomerID>
+      <EmployeeID>aaa123</EmployeeID>
+      <OrderDate>2001-12-31T12:00:00</OrderDate>
+      <RequiredDate>2001-12-31T12:00:00</RequiredDate>
+      <ShipInfo ShippedDate="2001-12-31T12:00:00">
+        <ShipVia>5</ShipVia>
+        <Freight>1.2</Freight>
+        <ShipName>Mr Dupont</ShipName>
+        <ShipAddress>avenue Jean Jaurès</ShipAddress>
+        <ShipCity>Le Mans</ShipCity>
+        <ShipRegion>Sarthe</ShipRegion>
+        <ShipPostalCode>72100</ShipPostalCode>
+        <ShipCountry>France</ShipCountry>
+      </ShipInfo>
+    </Order>
+  </Orders>
+</Root>
